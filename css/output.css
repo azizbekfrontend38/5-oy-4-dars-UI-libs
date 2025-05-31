@@ -1067,11 +1067,11 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
   .mt-50 {
     margin-top: calc(var(--spacing) * 50);
-  }
-  .mt-\[20px\] {
-    margin-top: 20px;
   }
   .apexcharts-canvas {
     & .apexcharts-tooltip {
@@ -1429,6 +1429,18 @@
     .dark .apexcharts-canvas &:before {
       border-bottom-color: var(--color-gray-700) !important;
     }
+  }
+  .ml-50 {
+    margin-left: calc(var(--spacing) * 50);
+  }
+  .ml-150 {
+    margin-left: calc(var(--spacing) * 150);
+  }
+  .ml-250 {
+    margin-left: calc(var(--spacing) * 250);
+  }
+  .ml-350 {
+    margin-left: calc(var(--spacing) * 350);
   }
   .ml-auto {
     margin-left: auto;
